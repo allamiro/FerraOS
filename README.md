@@ -1,2 +1,29 @@
 # FerraOS
-FerraOS is a Rust-based operating system designed for performance, safety, and modularity. Built from the ground up with memory safety and concurrency in mind, FerraOS offers a modern systems programming foundation ideal for embedded, research, and experimental computing environments.
+
+**FerraOS** is a Rust-based experimental operating system focused on safety, performance, and modularity. Built from the ground up using modern language features, it aims to provide a secure and efficient systems programming foundation.
+
+---
+
+## ✨ Features
+
+- ⚙️ Memory-safe kernel (Rust, `#![no_std]`)
+- 🧩 Modular architecture with future desktop environment support
+- 🔐 Strong emphasis on concurrency and system safety
+- 🧪 Ideal for experimentation, research, and educational use
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Rust (nightly)
+- QEMU (for virtualization)
+- bootimage (cargo tool)
+
+```bash
+rustup default nightly
+rustup component add rust-src llvm-tools-preview
+cargo install bootimage
+sudo apt install qemu-system-x86
+```
