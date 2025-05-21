@@ -27,3 +27,12 @@ rustup component add rust-src llvm-tools-preview
 cargo install bootimage
 sudo apt install qemu-system-x86
 ```
+
+---
+## License
+* FerraOS is released under the MIT License.
+
+---
+## Contributing
+* Contributions are welcome! Please open issues or pull requests to collaborate.
+
