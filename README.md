@@ -28,6 +28,11 @@ cargo install bootimage
 sudo apt install qemu-system-x86
 ```
 
+
+```bash
+cargo bootimage
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-debug/bootimage-ferraos.bin
+```
 ---
 ## License
 * FerraOS is released under the MIT License.
